@@ -1,0 +1,10 @@
+Wed, 25 Dec 2024 20:29:40 GMT
+Wed, 25 Dec 2024 20:29:43 GMT
+Wed, 25 Dec 2024 20:29:46 GMT
+Wed, 25 Dec 2024 20:29:49 GMT
+Secret message is:
+"Volume bind mount is easy"
+Wed, 25 Dec 2024 20:29:55 GMT
+Wed, 25 Dec 2024 20:29:58 GMT
+Wed, 25 Dec 2024 20:30:01 GMT
+Wed, 25 Dec 2024 20:30:04 GMT
