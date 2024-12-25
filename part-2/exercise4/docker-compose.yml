@@ -1,0 +1,10 @@
+services:
+  db:
+    image: backend-image
+    networks:
+      - database-network
+
+networks:
+  database-network:
+    external:
+      name: database-network # Must match the actual name of the network defined exercise3 folder
