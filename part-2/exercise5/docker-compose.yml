@@ -1,0 +1,10 @@
+# By default all services are added to a network called default. 
+# Configure default network to connect to an external network.
+services:
+  db:
+    image: backend-image
+
+networks:
+  default:
+    external:
+      name: database-network # Must match the actual name of the network
