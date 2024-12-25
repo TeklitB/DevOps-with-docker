@@ -17,3 +17,4 @@ ENTRYPOINT ["/usr/local/bin/yt-dlp"]
 
 # Simple solution for the Major issue 
 # docker cp "5550fc4c4d6a:/mydir/Master’s Programme in Computer Science ｜ University of Helsinki [XsqlHHTGQrw].mp4" .
+# It is quite laborious to get the downloaded videos to the host machine.
