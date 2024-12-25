@@ -1,0 +1,9 @@
+services:
+  ytb-dwl-ubuntu:
+    #image: #<username>/<repositoryname>
+    container_name: ytb-dwl
+    build: 
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - .:/mydir # maps the /mydir in the container to the current directory in the host machine.
