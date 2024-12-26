@@ -1,0 +1,14 @@
+# Use nginx-proxy
+
+services:
+  whoami:
+    image: jwilder/whoami
+  proxy:
+    image: jwilder/nginx-proxy
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro # socket that is used to communicate with the Docker Daemon
+    ports:
+      - 80:80
+
+# It's "working", but the Nginx just doesn't know which service we want.
+# 503 Service Temporarily Unavailable
